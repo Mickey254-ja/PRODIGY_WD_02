@@ -1,0 +1,71 @@
+/* Style the stopwatch container */
+
+.stopwatch {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 40px;
+    width: 100vw;
+    height: 100vw;
+    border: 2px solid #3498db; /* Change the border color to a nice blue */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #f2f2f2; /* Add a light gray background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    background-image: url('images/watch.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Style the time display */
+.time-display {
+    font-size: 2.5em; /* Increase the font size for the time display */
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 15px; /* Add more spacing at the bottom */
+    color: #337a85; /* Change text color to a darker gray */
+}
+
+/* Center the control buttons within the stopwatch container */
+.control-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the control buttons */
+.control-buttons button {
+    margin: 5px;
+    padding: 20px 50px;
+    font-size: 1.5em; /* Increase the font size for buttons */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0e0820; /* Use the same blue color as the border */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.control-buttons button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Style the lap times list */
+.lap-times {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px; /* Add spacing between lap times and buttons */
+}
+
+.lap-times li {
+    margin: 20px;
+    width: auto;
+    padding: 20px 20px;
+    font-size: 1.2em;
+    background-color: #4b6e77; /* Light gray background for lap times */
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to lap times */
+}
+
+
